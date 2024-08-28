@@ -1,0 +1,92 @@
+<!-- creation and annotation of static webpages using any html editor -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for the webpage -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Market App</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section with app title -->
+    <header>
+        <h1>Stock Market App</h1>
+        <p>Track your favorite stocks and market indices</p>
+    </header>
+    <!-- Navigation menu for different sections of the app -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#markets">Markets</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- Main content area -->
+    <main>
+        <!-- Home section with an overview of the app -->
+        <section id="home">
+            <h2>Welcome to Stock Market App</h2>
+            <p>Stay updated with the latest stock prices and market news.</p>
+        </section>
+        <!-- Markets section to display stock prices and market indices -->
+        <section id="markets">
+            <h2>Market Overview</h2>
+            <!-- Example of a table to display stock information -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Stock</th>
+                        <th>Price</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Apple Inc. (AAPL)</td>
+                        <td id="price-AAPL">$0.00</td>  <!-- Placeholder for real-time price -->
+                        <td id="change-AAPL">+0.00%</td>
+                    </tr>
+                    <tr>
+                        <td>Amazon.com Inc. (AMZN)</td>
+                        <td id="price-AMZN">$0.00</td>  <!-- Placeholder for real-time price -->
+                        <td id="change-AMZN">+0.00%</td>
+                    </tr>
+                    <!-- Add more stocks as needed -->
+                </tbody>
+            </table>
+        </section>
+        <!-- Portfolio section for users to manage their investments -->
+        <section id="portfolio">
+            <h2>Your Portfolio</h2>
+            <p>Track your investments and see how they are performing.</p>
+            <!-- Placeholder content -->
+            <p>No investments added yet.</p>
+        </section>
+        <!-- News section to display the latest market news -->
+        <section id="news">
+            <h2>Latest Market News</h2>
+            <!-- Example of a list to display news headlines -->
+            <ul>
+                <li><a href="#">Stock Market Today: Dow Jones, Nasdaq, and S&P 500 Updates</a></li>
+                <li><a href="#">Top Tech Stocks to Watch This Week</a></li>
+                <li><a href="#">How Inflation is Impacting the Stock Market</a></li>
+                <!-- Additional news items can be added here -->
+            </ul>
+        </section>
+        <!-- Contact section for user inquiries -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us at <a href="mailto:support@stockmarketapp.com">support@stockmarketapp.com</a>.</p>
+        </section>
+    </main>
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 Stock Market App. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
